@@ -1,0 +1,98 @@
+"""
+    Ejercicios para las funciones de orden superior
+    """
+
+
+  => Ejercicio 1:
+    Realiza una función separar(lista) que tome una lista de números enteros 
+    y devuelva dos listas la primera con los números pares 
+    y la segunda con los números impares.
+
+    Ej:
+        pares, impares = separar([6,5,2,1,7])
+        print(pares)
+        print(impares)
+
+        >>> [2, 6]
+        >>> [1, 5, 7]
+
+
+  => Ejercicio 2:
+    Realiza una función que tome como parametro una frase y devuelva una 
+    lista de palabras en mayuscula. 
+
+      Ej: 
+        mi_frase = "Este sabado tenemos el ultimo encuentro online"
+
+        palabras = convertir(mi_frase)
+
+        print(palabras)
+
+        >>> ["ESTE", "SABADO", "TENEMOS", "EL", "ULTIMO", "ENCUENTRO", "ONLINE"]
+
+  
+  => Ejercicio 3:
+    Realiza una fn acumulado, que devuelva el valor acumulado 
+    de la suma de una lista de numeros mas 100.
+
+    Ej: 
+      mis_numeros = [2, 4, 6]
+
+      valor_final = acumulado(mis_numeros)
+
+      print(mis_numeros)
+
+      >>> 112
+
+   
+   => Ejercicio 4:
+    Realizar una fn mostrar, que reciba una lista de frutas y un numero, e imprima 
+    un numero y el elemento asociado. 
+
+    Ej: 
+
+      frutas = ['Banana', 'kiwi', 'Pera', 'Naranja', 'Manzana']
+
+      mostrar(frutas, 100)
+
+      >>> 100 Banana
+      >>> 101 kiwi
+      >>> 102 Pera
+      >>> 103 Naranja
+      >>> 104 Manzana 
+
+    
+    => Ejercicio 5:
+      Realizar una función asociar() que reciba como parametro dos listas 
+      de la misma longitud de elementos y devuelva un diccionario de pares 
+      clave-valor asociando cada elemento de ambas listas segun su indice. 
+
+      Ej:
+        empleado = ['Juli', 'Carlos', 'Roberto', 'Marta']
+        categoria = ['Categoria B', 'Categoria C', 'Categoria A', 'Categoria D']
+
+        diccionario = asociar(empleado, categoria)
+
+        print(diccionario)
+
+        >>> {
+            'Juli': 'Categoria B', 
+            'Carlos': 'Categoria C', 
+            'Roberto': 'Categoria A', 
+            'Marta': 'Categoria D'
+          }
+
+    => Ejercicio 6:
+      Extender el ejercicio anterior, crear una función ordenarPorCategoria 
+      que reciba como param el diccionario, que devuelve la función asociar, 
+      y devuelva un nuevo diccionario ordenado por categoria.
+
+      Ej: 
+        print(ordenarPorCategoria(diccionario))
+
+        >>> {
+          'Roberto': 'Categoria A', 
+          'Juli': 'Categoria B', 
+          'Carlos': 'Categoria C', 
+          'Marta': 'Categoria D'
+          }
