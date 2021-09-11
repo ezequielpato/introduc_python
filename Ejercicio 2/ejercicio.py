@@ -25,20 +25,20 @@
 # print(res2)
 
 
-def convertir(frase: str):
-    """ La función recibe como parámetro una cadena de caracteres y 
-        devuelve una lista de elementos en mayusculas """
-    frase_split = frase.split()
+# def convertir(frase: str):
+#     """ La función recibe como parámetro una cadena de caracteres y 
+#         devuelve una lista de elementos en mayusculas """
+#     frase_split = frase.split()
 
     # frase_mayus = list(map(lambda mayus:  mayus.upper(), frase_split))
     
     # return frase_mayus
 
-    return list(map(str.upper, frase_split))
+#     return list(map(str.upper, frase_split))
 
 
-mi_frase = "Este sabado tenemos el ultimo encuentro online"
-palabras = convertir(mi_frase)
+# mi_frase = "Este sabado tenemos el ultimo encuentro online"
+# palabras = convertir(mi_frase)
 
-print(palabras)
+# print(palabras)
 
