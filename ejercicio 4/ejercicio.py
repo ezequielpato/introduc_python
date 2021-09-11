@@ -33,7 +33,3 @@ mostrar(frutas, 1)
 
 
 
-# mostrar(frutas, 100)
-
-# for indice, elemento in enumerate(mi_lista, 1):
-#     print(indice, " => ", elemento)
