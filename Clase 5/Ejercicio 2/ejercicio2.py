@@ -16,11 +16,11 @@ Luego pasar el objeto resultante por una fn list() e imprimirlo.
 
 numbers = [3,1,10,8,6,2]
 
-def filtro(func,coleccion):
+def myFilter(func,coleccion):
     for i in coleccion:
         if func(i):       # segunda condición 
             yield i
 
-resultado = filtro(lambda x: x > 3, numbers)
+resultado = myFilter(lambda x: x > 3, numbers)
 
 print(list(resultado)) 
