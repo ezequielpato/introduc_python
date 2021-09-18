@@ -11,7 +11,8 @@
           'Juli': 'Categoria B', 
           'Carlos': 'Categoria C', 
           'Marta': 'Categoria D'
-          } """
+          } 
+"""
 
 empleado = ['Juli', 'Carlos', 'Roberto', 'Marta']
 categoria = ['Categoria B', 'Categoria C', 'Categoria A', 'Categoria D']
